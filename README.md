@@ -2,7 +2,7 @@
 
 This theme based on [HTML5 Boilerplate](http://html5boilerplate.com/) & [Bootstrap](http://getbootstrap.com/).
 
-* Homepage: [https://barrychampion.com](https://barrychampion.com)
+* Homepage: [http://barrychampion.com](https://barrychampion.com)
 
 ## Features
 
