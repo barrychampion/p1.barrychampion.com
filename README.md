@@ -1,14 +1,8 @@
-# [Roots Starter Theme](http://roots.io/)
-[![devDependency Status](https://david-dm.org/roots/roots/dev-status.svg)](https://david-dm.org/roots/roots#info=devDependencies)
+# [Barry Champion's Portfolio & Photoblog WordPress Theme](http://roots.io/)
 
-Roots is a WordPress starter theme based on [HTML5 Boilerplate](http://html5boilerplate.com/) & [Bootstrap](http://getbootstrap.com/) that will help you make better themes.
+This theme based on [HTML5 Boilerplate](http://html5boilerplate.com/) & [Bootstrap](http://getbootstrap.com/).
 
-* Source: [https://github.com/roots/roots](https://github.com/roots/roots)
-* Homepage: [http://roots.io/](http://roots.io/)
-* Documentation: [http://roots.io/docs/](http://roots.io/docs/)
-* Twitter: [@rootswp](https://twitter.com/rootswp), [@retlehs](https://twitter.com/retlehs), [@swalkinshaw](https://twitter.com/swalkinshaw), [@Foxaii](https://twitter.com/Foxaii), [@c2foryou](https://twitter.com/c2foryou)
-* Newsletter: [Subscribe](http://roots.io/subscribe/)
-* Forum: [http://discourse.roots.io/](http://discourse.roots.io/)
+* Homepage: [https://barrychampion.com](https://barrychampion.com)
 
 ## Features
 
