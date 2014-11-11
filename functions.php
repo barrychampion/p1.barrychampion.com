@@ -32,3 +32,15 @@ foreach ($roots_includes as $file) {
   require_once $filepath;
 }
 unset($file, $filepath);
+
+if ( function_exists('register_sidebar') ) {
+  register_sidebar(array(
+    'name' => 'Fullscreen',
+    'id' => 'fullscreen',
+    'description' => 'Fullscreen widget area suitable for large carousels',
+    'before_widget' => '',
+    'after_widget' => '',
+    'before_title' => '',
+    'after_title' => '',
+    ));
+}

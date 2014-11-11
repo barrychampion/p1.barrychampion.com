@@ -11,6 +11,9 @@
     do_action('get_header');
     get_template_part('templates/header');
   ?>
+  <?php
+    if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('fullscreen') ) :
+  endif; ?>
 
   <div class="wrap container" role="document">
     <div class="content row">
