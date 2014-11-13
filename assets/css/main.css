@@ -1391,11 +1391,11 @@ mark,
 }
 
 .text-primary {
-  color: #27ae60;
+  color: #fff;
 }
 
 a.text-primary:hover {
-  color: #1e8449;
+  color: #e6e6e6;
 }
 
 .text-success {
@@ -1435,11 +1435,11 @@ a.text-danger:hover {
 }
 
 .bg-primary {
-  background-color: #27ae60;
+  background-color: #fff;
 }
 
 a.bg-primary:hover {
-  background-color: #1e8449;
+  background-color: #e6e6e6;
 }
 
 .bg-success {
