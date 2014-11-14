@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Enable theme features
  */
@@ -68,4 +69,12 @@ function roots_display_sidebar() {
  * Example: If the content area is 640px wide, set $content_width = 620; so images and videos will not overflow.
  * Default: 1140px is the default Bootstrap container width.
  */
-if (!isset($content_width)) { $content_width = 1140; }
+//if (!isset($content_width)) { $content_width = 1140; }
+
+add_filter( 'post_thumbnail_html', 'remove_thumbnail_dimensions', 10 );
+add_filter( 'image_send_to_editor', 'remove_thumbnail_dimensions', 10 );
+
+function remove_thumbnail_dimensions( $html ) {
+    $html = preg_replace( '/(width|height)=\"\d*\"\s/', "", $html );
+    return $html;
+}

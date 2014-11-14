@@ -1,3 +1,7 @@
-.banner { 
-
+.home .banner { 
+	position:absolute;
+	width:100%
+}
+.home .navbar-nav > li > a, .home a.navbar-brand {
+	color: $white-text
 }
