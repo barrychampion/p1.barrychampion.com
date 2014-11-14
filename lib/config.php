@@ -78,3 +78,29 @@ function remove_thumbnail_dimensions( $html ) {
     $html = preg_replace( '/(width|height)=\"\d*\"\s/', "", $html );
     return $html;
 }
+
+add_filter('new_royalslider_skins', 'new_royalslider_add_custom_skin', 10, 2);
+function new_royalslider_add_custom_skin($skins) {
+      $skins['rsBC'] = array(
+           'label' => 'BC'//,
+           //'path' => get_stylesheet_directory_uri() . '/royalslider/skins/bc/bc.css'  // get_stylesheet_directory_uri returns path to your theme folder
+      );
+      return $skins;
+}
+
+// Add this to your theme functions.php
+// new_rs_after_js_init_code action is available since v3.1.7.
+function add_additional_rs_code() {
+    ?>
+    // put JS code here
+        $(function(){
+            $(".rsFullscreenIcn").addClass("fa fa-expand");
+            $(".rsArrowRight .rsArrowIcn").addClass("fa fa-chevron-right");
+            $(".rsArrowLeft .rsArrowIcn").addClass("fa fa-chevron-left");
+        });
+
+    // For example: get slider instance (if it's single on page)
+    var sliderInstance = $('.royalSlider').data('royalSlider'); 
+    <?php
+}
+add_action('new_rs_after_js_init_code', 'add_additional_rs_code');

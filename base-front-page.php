@@ -15,6 +15,7 @@
   <div class="wrap" role="document">
     <div class="content">
       <main role="main">
+        <?php remove_filter ('the_content',  'wpautop'); ?>
         <?php include roots_template_path(); ?>
       </main><!-- /.main -->
     </div><!-- /.content -->
