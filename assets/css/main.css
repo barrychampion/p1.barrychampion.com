@@ -7287,6 +7287,16 @@ h1, .widget h3, .page-header, .navbar-brand {
   color: #4099ff;
 }
 
+a.navbar-brand:hover,
+a.navbar-brand:focus,
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus,
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus {
+  background-color: transparent;
+  color: #666;
+}
+
 .sidebar {
   position: relative;
   min-height: 1px;
@@ -7307,6 +7317,12 @@ h1, .widget h3, .page-header, .navbar-brand {
 
 .home .navbar-nav > li > a, .home a.navbar-brand {
   color: #fff;
+}
+
+.home .navbar-nav > li > a:hover, .home .navbar-nav > li > a:focus,
+.home .navbar-nav > li > a:hover, .home a.navbar-brand:hover,
+.home .navbar-nav > li > a:focus, .home a.navbar-brand:focus {
+  color: #ccc;
 }
 
 .home .navbar-toggle {

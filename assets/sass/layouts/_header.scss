@@ -7,3 +7,13 @@
 .navbar-nav > li > a, a.navbar-brand {
 	color: $brand-primary
 }
+
+a.navbar-brand:hover,
+a.navbar-brand:focus,
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus, 
+.navbar-nav > li > a:hover, 
+.navbar-nav > li > a:focus {
+    background-color: transparent;
+    color:#666
+}

@@ -5,6 +5,11 @@
 .home .navbar-nav > li > a, .home a.navbar-brand {
 	color: $white-text
 }
+.home .navbar-nav > li > a:hover, .home .navbar-nav > li > a:focus,
+.home .navbar-nav > li > a:hover, .home a.navbar-brand:hover,
+.home .navbar-nav > li > a:focus, .home a.navbar-brand:focus{
+    color:#ccc
+}
 .home .navbar-toggle {
     color: $white-text;
 }
