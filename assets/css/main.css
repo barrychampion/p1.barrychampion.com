@@ -1,7 +1,8 @@
 @charset "UTF-8";
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
-@import "//fonts.googleapis.com/css?family=Open+Sans:400,700";
-@import "//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css";
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -1393,11 +1394,11 @@ mark,
 }
 
 .text-primary {
-  color: #fff;
+  color: #4099ff;
 }
 
 a.text-primary:hover {
-  color: #e6e6e6;
+  color: #0d7eff;
 }
 
 .text-success {
@@ -1437,11 +1438,11 @@ a.text-danger:hover {
 }
 
 .bg-primary {
-  background-color: #fff;
+  background-color: #4099ff;
 }
 
 a.bg-primary:hover {
-  background-color: #e6e6e6;
+  background-color: #0d7eff;
 }
 
 .bg-success {
@@ -6749,6 +6750,26 @@ figure.alignnone {
 }
 body {
   font-family: 'Open Sans', sans-serif;
+  margin-bottom: 100px;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6, .navbar-brand {
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: #4099ff;
+}
+
+a:hover, a:focus {
+  color: #666;
+  text-decoration: none;
+}
+
+h1, .widget h3, .page-header, .navbar-brand {
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 .main {
@@ -6845,7 +6866,7 @@ body {
 
 .rsBC .rsArrowIcn {
   top: 50%;
-  left: 30%;
+  left: 28%;
   position: absolute;
   cursor: pointer;
   opacity: 0.5;
@@ -7130,9 +7151,9 @@ body {
 .rsBC .rsFullscreenBtn {
   right: 0;
   top: 0;
-  z-index: 22;
+  z-index: 99;
   display: block;
-  position: absolute;
+  position: fixed;
   cursor: pointer;
 }
 
@@ -7232,7 +7253,7 @@ body {
   -webkit-animation: spin 1s infinite linear;
   left: 50%;
   top: 50%;
-  margin-left: -30px;
+  margin-left: -35px;
   margin-top: -10px;
 }
 
@@ -7255,13 +7276,15 @@ body {
   border-radius: 2px;
 }
 
-.home .banner {
-  position: absolute;
-  width: 80%;
+.navbar-toggle {
+  float: left;
+  padding: 5px;
+  margin: 8px 0 10px 10px;
+  color: #4099ff;
 }
 
-.home .navbar-nav > li > a, .home a.navbar-brand {
-  color: #fff;
+.navbar-nav > li > a, a.navbar-brand {
+  color: #4099ff;
 }
 
 .sidebar {
@@ -7277,12 +7300,29 @@ body {
   }
 }
 
+.home .banner {
+  position: absolute;
+  width: 80%;
+}
+
+.home .navbar-nav > li > a, .home a.navbar-brand {
+  color: #fff;
+}
+
+.home .navbar-toggle {
+  color: #fff;
+}
+
 .fa {
-  font-size: 18px;
+  font-size: 21px;
 }
 
 .fa-chevron-left, .fa-chevron-right {
   font-size: 38px;
+}
+
+h1 {
+  text-transform: uppercase;
 }
 
 /*# sourceMappingURL=main.css.map */

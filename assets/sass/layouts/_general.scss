@@ -1,5 +1,23 @@
 body {
     font-family: 'Open Sans', sans-serif;
+    margin-bottom: 100px
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6, .navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+}
+a {
+    color: $brand-primary
+}
+a:hover, a:focus {
+    color: #666;
+    text-decoration: none;
+}
+
+h1, .widget h3, .page-header, .navbar-brand {
+    text-transform:uppercase;
+    font-weight: 700
 }
 
 // Content wrapper
@@ -71,7 +89,7 @@ body {
 
 .rsBC .rsArrowIcn {		
 	top: 50%;
-	left: 30%;
+	left: 28%;
 
 	position: absolute;	
 	cursor: pointer;	
@@ -328,9 +346,9 @@ body {
 .rsBC .rsFullscreenBtn {
 	right: 0;
 	top: 0;
-	z-index: 22;
+	z-index: 99;
 	display: block;
-	position: absolute;
+	position: fixed;
 	cursor: pointer;
 	
 }
@@ -435,7 +453,7 @@ body {
     -webkit-animation: spin 1s infinite linear;
     left:50%;
     top:50%;
-    margin-left:-30px;
+    margin-left:-35px;
     margin-top:-10px;	
 }
 

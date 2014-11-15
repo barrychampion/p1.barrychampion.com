@@ -94,6 +94,8 @@ function add_additional_rs_code() {
     ?>
     // put JS code here
         $(function(){
+            $(".rsFullscreenBtn").addClass("hidden-xs hidden-sm");
+            $(".rsGCaption, .rsBullets").addClass("hidden-xs");
             $(".rsFullscreenIcn").addClass("fa fa-expand");
             $(".rsArrowRight .rsArrowIcn").addClass("fa fa-chevron-right");
             $(".rsArrowLeft .rsArrowIcn").addClass("fa fa-chevron-left");
@@ -104,3 +106,11 @@ function add_additional_rs_code() {
     <?php
 }
 add_action('new_rs_after_js_init_code', 'add_additional_rs_code');
+
+function enqueue_front_page_scripts() {
+    if( is_front_page() )
+    {
+        register_new_royalslider_files(3);
+    }
+}
+add_action( 'wp_enqueue_scripts', 'enqueue_front_page_scripts' );

@@ -1,7 +1,9 @@
-.home .banner { 
-	position:absolute;
-    width:80%;
+.navbar-toggle {
+    float:left;
+    padding: 5px;
+    margin: 8px 0 10px 10px;
+    color: $brand-primary
 }
-.home .navbar-nav > li > a, .home a.navbar-brand {
-	color: $white-text
+.navbar-nav > li > a, a.navbar-brand {
+	color: $brand-primary
 }

@@ -1,6 +1,19 @@
+.home .banner { 
+	position:absolute;
+    width:80%;
+}
+.home .navbar-nav > li > a, .home a.navbar-brand {
+	color: $white-text
+}
+.home .navbar-toggle {
+    color: $white-text;
+}
 .fa {
-    font-size: 18px;
+    font-size: 21px;
 }
 .fa-chevron-left, .fa-chevron-right {
     font-size: 38px;
+}
+h1 {
+    text-transform: uppercase
 }
