@@ -94,8 +94,7 @@ function add_additional_rs_code() {
     ?>
     // put JS code here
         $(function(){
-            $(".rsFullscreenBtn").addClass("hidden-xs hidden-sm");
-            $(".rsGCaption, .rsBullets").addClass("hidden-xs");
+            $(".rsFullscreenBtn, .rsArrow, .rsGCaption, .rsBullets").addClass("hidden-xs");
             $(".rsFullscreenIcn").addClass("fa fa-expand");
             $(".rsArrowRight .rsArrowIcn").addClass("fa fa-chevron-right");
             $(".rsArrowLeft .rsArrowIcn").addClass("fa fa-chevron-left");

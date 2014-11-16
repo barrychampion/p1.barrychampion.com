@@ -1,24 +1,22 @@
-.home .banner { 
+.home .navbar { 
 	position:absolute;
-    width:80%;
+    width:100%;
+    border:none;
 }
-.home .navbar-nav > li > a, .home a.navbar-brand {
+.home .navbar-nav > li > a, .home a.navbar-brand, .home nav span a {
 	color: $white-text
 }
-.home .navbar-nav > li > a:hover, .home .navbar-nav > li > a:focus,
-.home .navbar-nav > li > a:hover, .home a.navbar-brand:hover,
-.home .navbar-nav > li > a:focus, .home a.navbar-brand:focus{
+.home .navbar-nav a:hover, 
+.home .navbar-nav a:focus,
+.home a.navbar-brand:hover,
+.home a.navbar-brand:focus,
+.home nav span a:hover,
+.home nav span a:focus {
     color:#ccc
 }
 .home .navbar-toggle {
     color: $white-text;
 }
-.fa {
-    font-size: 21px;
-}
-.fa-chevron-left, .fa-chevron-right {
-    font-size: 38px;
-}
-h1 {
+.home h1 {
     text-transform: uppercase
 }
