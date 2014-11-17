@@ -3,8 +3,9 @@
     width:100%;
     border:none;
 }
-.home .navbar-nav > li > a, .home a.navbar-brand, .home nav span a {
-	color: $white-text
+.home .navbar-nav > li > a, .home a.navbar-brand, .home nav .fa {
+	color: $white-text;
+    text-shadow: $text-shadow;
 }
 .home .navbar-nav a:hover, 
 .home .navbar-nav a:focus,

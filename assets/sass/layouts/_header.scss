@@ -5,7 +5,7 @@
     color: $brand-primary
 }
 .navbar-nav > li > a, a.navbar-brand {
-	color: $brand-primary
+	color: $brand-primary;
 }
 
 a.navbar-brand:hover,
@@ -13,7 +13,7 @@ a.navbar-brand:focus,
 .navbar-nav > li > a:hover,
 .navbar-nav > li > a:focus {
     background-color: transparent;
-    color:#666
+    color:$brand-primary-hover;
 }
 .navbar {
     border-bottom: 1px solid #eeeeee;
@@ -23,5 +23,6 @@ nav span {
     margin: 14px 0;
 }
 .navbar .fa {
-    margin-left:10px
+    margin-left:10px;
+    font-size: 21px;
 }

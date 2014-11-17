@@ -1,0 +1,28 @@
+.archive main article {
+    position: relative;
+    display:inline-block
+}
+.archive main header {
+    position: absolute;
+    top:20px;
+    left:20px;
+    color: $white-text;
+}
+.archive main article .btn {
+    position: absolute;
+    bottom:30px;
+    right:25px;
+}
+.archive main header h2 {
+    margin:0;
+    text-shadow: $text-shadow;
+}
+.archive main header small{
+    text-shadow: $text-shadow;
+}
+.archive main header a {
+    color: $white-text;
+}
+.archive .post-thumbnail {
+    width:100%;
+}

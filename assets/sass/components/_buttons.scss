@@ -1,0 +1,9 @@
+.btn-bc {
+    background-color: $brand-primary;
+    color: $white-text
+}
+.btn-bc:hover,
+.btn-bc:focus {
+    background-color: $brand-primary-hover;
+    color: $white-text
+}

@@ -6717,6 +6717,17 @@ button.close {
     display: none !important;
   }
 }
+.btn-bc {
+  background-color: #4099ff;
+  color: #fff;
+}
+
+.btn-bc:hover,
+.btn-bc:focus {
+  background-color: #337acc;
+  color: #fff;
+}
+
 .gallery-row {
   padding: 10px 0;
 }
@@ -6753,11 +6764,11 @@ body {
   margin-bottom: 100px;
 }
 
-@media (min-width: 1600px) {
+/*@media (min-width: 1600px) {
   .container {
     width: 1570px;
   }
-}
+}*/
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6, .navbar-brand {
   font-family: 'Montserrat', sans-serif;
@@ -6768,7 +6779,7 @@ a {
 }
 
 a:hover, a:focus {
-  color: #666;
+  color: #337acc;
   text-decoration: none;
 }
 
@@ -6806,11 +6817,7 @@ a:hover, a:focus {
   margin: 0 0 20px;
 }
 
-.fa {
-  font-size: 21px;
-}
-
-.fa-chevron-left, .fa-chevron-right {
+.rsBC .fa-chevron-left, .rsBC .fa-chevron-right {
   font-size: 38px;
 }
 
@@ -7259,21 +7266,21 @@ a:hover, a:focus {
 *
 *  7. Preloader
 *
-****************/
-.rsBC .rsPreloader {
-  width: 80px;
-  height: 80px;
-  border-radius: 40px;
-  -webkit-box-sizing: border-box;
-  border: solid 10px rgba(255, 255, 255, 0.2);
-  border-top-color: #FFF;
-  -webkit-animation: spin 1s infinite linear;
-  left: 50%;
-  top: 50%;
-  margin-left: -35px;
-  margin-top: -10px;
-}
+****************
 
+.rsBC .rsPreloader {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    -webkit-box-sizing: border-box;
+    border: solid 10px rgba(255, 255, 255, 0.2);
+    border-top-color: #FFF;
+    -webkit-animation: spin 1s infinite linear;
+    left:50%;
+    top:50%;
+    margin-left:-35px;
+    margin-top:-10px;	
+}*/
 /***************
 *
 *  8. Global caption
@@ -7577,7 +7584,7 @@ a.navbar-brand:focus,
 .navbar-nav > li > a:hover,
 .navbar-nav > li > a:focus {
   background-color: transparent;
-  color: #666;
+  color: #337acc;
 }
 
 .navbar {
@@ -7591,6 +7598,7 @@ nav span {
 
 .navbar .fa {
   margin-left: 10px;
+  font-size: 21px;
 }
 
 .sidebar {
@@ -7616,8 +7624,9 @@ nav span {
   border: none;
 }
 
-.home .navbar-nav > li > a, .home a.navbar-brand, .home nav span a {
+.home .navbar-nav > li > a, .home a.navbar-brand, .home nav .fa {
   color: #fff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
 
 .home .navbar-nav a:hover,
@@ -7635,6 +7644,41 @@ nav span {
 
 .home h1 {
   text-transform: uppercase;
+}
+
+.archive main article {
+  position: relative;
+  display: inline-block;
+}
+
+.archive main header {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: #fff;
+}
+
+.archive main article .btn {
+  position: absolute;
+  bottom: 30px;
+  right: 25px;
+}
+
+.archive main header h2 {
+  margin: 0;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.archive main header small {
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.archive main header a {
+  color: #fff;
+}
+
+.archive .post-thumbnail {
+  width: 100%;
 }
 
 /*# sourceMappingURL=main.css.map */

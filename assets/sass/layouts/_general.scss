@@ -3,11 +3,11 @@ body {
     margin-bottom: 100px
 }
 
-@media (min-width: 1600px) {
+/*@media (min-width: 1600px) {
   .container {
     width: 1570px;
   }
-}
+}*/
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6, .navbar-brand {
@@ -17,7 +17,7 @@ a {
     color: $brand-primary
 }
 a:hover, a:focus {
-    color: #666;
+    color: $brand-primary-hover;
     text-decoration: none;
 }
 
@@ -41,10 +41,7 @@ a:hover, a:focus {
     margin:0 0 20px;
 }
 
-.fa {
-    font-size: 21px;
-}
-.fa-chevron-left, .fa-chevron-right {
+.rsBC .fa-chevron-left, .rsBC .fa-chevron-right {
     font-size: 38px;
 }
 
@@ -458,7 +455,7 @@ a:hover, a:focus {
 *
 *  7. Preloader
 *
-****************/
+****************
 
 .rsBC .rsPreloader {
     width: 80px;
@@ -472,7 +469,7 @@ a:hover, a:focus {
     top:50%;
     margin-left:-35px;
     margin-top:-10px;	
-}
+}*/
 
 
 
