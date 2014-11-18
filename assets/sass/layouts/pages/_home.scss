@@ -3,21 +3,20 @@
     width:100%;
     border:none;
 }
-.home .navbar-nav > li > a, .home a.navbar-brand, .home nav .fa {
+.home a.btn-bc-mmenu, .home a.logo, .home nav a {
 	color: $white-text;
     text-shadow: $text-shadow;
 }
-.home .navbar-nav a:hover, 
-.home .navbar-nav a:focus,
-.home a.navbar-brand:hover,
-.home a.navbar-brand:focus,
-.home nav span a:hover,
-.home nav span a:focus {
+
+.home a.btn-bc-mmenu:hover,
+.home a.btn-bc-mmenu:focus,
+.home a.logo:hover,
+.home a.logo:focus,
+.home nav a:hover,
+.home nav a:focus {
     color:#ccc
 }
-.home .navbar-toggle {
-    color: $white-text;
-}
 .home h1 {
-    text-transform: uppercase
+    text-transform: uppercase;
+    font-weight: 700
 }
