@@ -7656,13 +7656,30 @@ a.logo:focus,
 .home a.logo:hover,
 .home a.logo:focus,
 .home nav a:hover,
-.home nav a:focus {
+.home nav a:focus,
+.home .rsContentInfo a:hover,
+.home .rsContentInfo a:focus {
   color: #ccc;
 }
 
 .home h1 {
   text-transform: uppercase;
   font-weight: 700;
+}
+
+.home .rsContentInfo {
+  position: absolute;
+  bottom: 15%;
+  left: 70px;
+}
+
+.home .rsContentInfo h1 {
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.home .rsContentInfo a {
+  color: #fff;
 }
 
 .archive main article {

@@ -13,10 +13,24 @@
 .home a.logo:hover,
 .home a.logo:focus,
 .home nav a:hover,
-.home nav a:focus {
+.home nav a:focus,
+.home .rsContentInfo a:hover,
+.home .rsContentInfo a:focus {
     color:#ccc
 }
 .home h1 {
     text-transform: uppercase;
     font-weight: 700
+}
+.home .rsContentInfo {
+    position: absolute;
+    bottom:15%;
+    left:70px;
+}
+.home .rsContentInfo h1 {
+    color: $white-text;
+    text-shadow: $text-shadow;
+}
+.home .rsContentInfo a {
+    color: $white-text;
 }

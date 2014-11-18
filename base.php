@@ -1,6 +1,6 @@
 <?php get_template_part('templates/head'); ?>
 <body <?php body_class(); ?>>
-
+<div class="wrap">
   <?php
     do_action('get_header');
     get_template_part('templates/header');
@@ -25,6 +25,6 @@
   <?php get_template_part('templates/footer'); ?>
 
   <?php wp_footer(); ?>
-
+</div>
 </body>
 </html>

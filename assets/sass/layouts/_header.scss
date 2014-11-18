@@ -1,28 +1,43 @@
-.navbar-toggle {
+.navbar-header {
+    margin:0 -15px !important;
+    width:100%;
+}
+.btn-bc-mmenu {
     float:left;
     padding: 5px;
-    margin: 8px 0 10px 10px;
-    color: $brand-primary
+    color: $brand-primary;
+    background: none;
+    border: none;
+    font-size:21px;
+    padding: 15px;
+    box-shadow: none;
+    cursor: pointer;
 }
-.navbar-nav > li > a, a.navbar-brand {
+a.logo {
+    float :left;
 	color: $brand-primary;
+    font-size:21px;
+    margin: 10px 10px 10px 0;
 }
-
-a.navbar-brand:hover,
-a.navbar-brand:focus,
-.navbar-nav > li > a:hover,
-.navbar-nav > li > a:focus {
+.btn-bc-mmenu:hover,
+.btn-bc-mmenu:focus,
+a.logo:hover,
+a.logo:focus,
+.navbar a:hover,
+.navbar a:focus {
     background-color: transparent;
     color:$brand-primary-hover;
 }
 .navbar {
     border-bottom: 1px solid #eeeeee;
 }
-nav span {
-    float:right;
-    margin: 14px 0;
+.navbar-social {
+    position: absolute;
+    top:15px;
+    right:10px;
+    margin: 0 5px 0 0;
 }
-.navbar .fa {
+.navbar-social .fa {
     margin-left:10px;
     font-size: 21px;
 }
