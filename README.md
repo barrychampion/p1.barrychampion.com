@@ -1,8 +1,8 @@
-#Barry Champion's Portfolio & Photoblog WordPress Theme
+#Prototype photoblog WordPress theme (discontinued)
 
 This theme based on [HTML5 Boilerplate](http://html5boilerplate.com/) & [Bootstrap](http://getbootstrap.com/).
 
-* Homepage: [http://barrychampion.com](http://barrychampion.com)
+* Homepage: [http://p1.barrychampion.com](http://p1.barrychampion.com)
 
 ## Features
 
